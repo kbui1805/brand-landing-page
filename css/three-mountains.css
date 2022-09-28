@@ -28,7 +28,8 @@ header {
     display: flex;
     height: 120px;
     justify-content: center;
-    background-color: var(--color-background-yellow);
+    /* background-color: var(--color-background-yellow); */
+    background-color: #ffbc05;
 }
 
 header img {
@@ -234,6 +235,14 @@ footer {
     
 }
 
+footer a:link{
+    color: var(--color-text-off-white);
+}
+
+footer a:visited{
+    color: var(--color-text-off-white);
+}
+
 @media screen and (min-width: 600px) {
     main {
         flex-direction: column;
@@ -312,7 +321,7 @@ footer {
         z-index: 10;
         width: 102%;
         height: 900px;
-        top: 50px;
+        top: 0px;
         left: -2%;
         background-image: url(../assets/chili-fg.png);
         background-size: cover;
@@ -482,4 +491,19 @@ footer {
         padding-top: 1%;
         padding-bottom: 1%;
     }
+}
+
+img:hover {
+    transform: translateY(-10px);
+    /* opacity: 1; */
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 50ms;
+}
+
+img {
+    /* opacity: 0.8; */
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+    transition-timing-function: ease-in-out;
 }
