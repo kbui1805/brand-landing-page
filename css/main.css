@@ -3,6 +3,20 @@
     margin: 0;
 }
 
+body {
+    width: 100vw;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.test {
+    border: 2px solid red;
+}
+
 .icon-image {
     width: auto;
     height: 20px;
@@ -14,6 +28,7 @@
 
 .container-flex {
     display: flex;
+    /* flex-direction: column; */
 }
 
 .container-grid {
