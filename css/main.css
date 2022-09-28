@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.icon-image {
+    width: auto;
+    height: 20px;
+}
+
+.background-image {
+    width: 100%;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-grid {
+    display: grid;
+}
+
+.container-footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
